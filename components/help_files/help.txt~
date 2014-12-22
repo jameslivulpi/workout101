@@ -1,0 +1,81 @@
+WORKOUT 101 is a personal workout planer which helps to keep track and give workout exercise ideas.
+
+WORKOUT 101 has the following features:
+	- coded in Python 3, using the tkinter GUI toolkit
+	- cross-platform: works on Windows, Unix, and OS X
+	- multi-window GUI 
+
+-----------------------------------------------------
+MENUs
+
+Workout Menu
+
+        New				-- Create a new workout plan
+        Load Plan			-- Open an existing workout plan
+        Load Plan From Calendar 	-- Open the calendar and choose workout 
+					   that's saved
+        Save				-- Save current workout plan
+        Print				-- Print current workout plan
+        PDF export 			-- Save current workout plan as .pdf file
+        Exit				-- Close all windows
+
+Exercises Menu:
+        New				-- Create a new exercise
+        Edit/Delete 			-- Edit/Delete selected exercise
+
+Exercise Cart:
+	Show				-- Shows the current exercises that have been 						   added
+	Form				-- Shows the current exercises that have 
+					   been chosen in a form layout with statistics
+DevTools Menu:
+        Convert db --> txt file		-- Convert database file to text file
+        
+	Convert txt file --> db		-- Convert text file to database file
+	
+	Merge two dbs    		-- merge two database files and store
+                            		   result in second database file
+        
+	Edit help        		-- edit help file
+
+Help Menu:
+	About            		-- info about the program
+	
+	Workout 101 help 		-- show this file
+	
+	FAQ		 		-- show Frequently Asked Questions
+
+-----------------------------------------------------------------
+Getting Started
+
+ - Creating a workout
+	- Go to workout menu on the top right of the screen
+	- Select each body part you wish to work out
+	- For each of those, check the boxes of specific 
+	exercises you wish to perform
+	- Once your "cart" is complete you can use the menu to export
+	- After exporting the workout is ready to be printed
+
+ - Using the Calendar
+	- Go to workout menu on top right of the screen
+	- Select the body parts you want to workout
+	- Click form to prepare the reps and insert the workout name
+	- Click on schedulue and the calendar will pop up to choose a date.
+
+ - Stat Tracking (weight/reps to track progress)
+	- After your workout go to workout menu and click "load plan"
+	- Click on the appropriate workout you have made and choose select
+	- A form will display that you can edit reps/weight/level/time & rest
+	- Fill in the proper values you have completed for that day and click accept
+	- The stats have now been saved.
+
+ - Creating your first exercise
+	- Go to the Exercise menu and select "New"
+	- Select the body part the exercise effects
+	- This is the template for adding new exercises
+	- In the text box add the description, and click the default
+	  picture to upload a demonstration picture
+	- Default picture size is 200x390 pixels
+
+
+
+

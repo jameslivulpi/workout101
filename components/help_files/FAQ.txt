@@ -1,0 +1,6 @@
+Q: I moved the program to another operating system and 
+ now the database does not work?
+
+A: The database can be manually converted on the original system to a 
+ text file that can be moved and converted back.
+
